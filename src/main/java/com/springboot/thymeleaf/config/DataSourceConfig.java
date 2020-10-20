@@ -12,7 +12,7 @@ import org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean;
 import javax.sql.DataSource;
 
 @Configuration
-@EnableJpaRepositories(basePackages = {"${spring.data.jpa.repository.packages}"})
+@EnableJpaRepositories(basePackages = {"${spring.data.jpa.repository.packages}"}) // "com.springboot.thymeleaf.dao") //
 public class DataSourceConfig {
 
     @Primary
